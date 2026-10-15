@@ -11,7 +11,9 @@ The Twelve-Factor App methodology says deployment-specific configuration, includ
 
 Resource: The Twelve-Factor App - https://12factor.net/config 
 ## AI
+Adversarial machine-learning attacks target different stages of an AI system. Evasion attacks manipulate inputs at inference time to cause incorrect predictions. Poisoning attacks corrupt training data or the training process so the model learns harmful behavior. Privacy attacks attempt to extract sensitive information, while misuse attacks exploit a model’s capabilities for harmful purposes. Defenses require threat modelling, trusted data pipelines, robust testing, access controls, and monitoring throughout the model lifecycle.
 
+Resource: Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://csrc.nist.gov/pubs/ai/100/2/e2023/final
 ## Mobile
 
 ## Networking
