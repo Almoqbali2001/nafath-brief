@@ -19,8 +19,11 @@ The OWASP Mobile Application Security Verification Standard (MASVS) defines secu
 
 Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
 
-
 ## Networking
+Border Gateway Protocol (BGP) route hijacking occurs when a network announces an unauthorized route for an IP prefix, potentially diverting traffic, enabling interception attempts, or causing outages. Resource Public Key Infrastructure (RPKI) lets prefix holders publish Route Origin Authorizations (ROAs), allowing networks to validate whether an autonomous system is authorized to originate a route. RPKI origin validation does not fully validate the entire AS path, encrypt traffic, or prevent every routing attack; deployment and routing policies remain essential.
+
+Resource: BGP Origin Validation - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/bgp-origin-validation/
+
 
 ## Cybersecurity
 
