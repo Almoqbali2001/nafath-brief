@@ -26,7 +26,9 @@ Resource: BGP Origin Validation - https://www.ripe.net/manage-ips-and-asns/resou
 
 
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) was a critical remote-code-execution vulnerability in Apache Log4j 2, a widely used Java logging library. Certain attacker-controlled log messages could trigger unsafe JNDI lookups, potentially allowing remote code execution on vulnerable systems. Its widespread use, ease of exploitation in affected configurations, and potential for severe compromise made it exceptionally serious. Organizations should identify affected applications and dependencies, upgrade to a fixed Log4j version, verify remediation, and investigate signs of compromise.
 
+Resource: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 ## Data
 
 ## Misconception in My Track
