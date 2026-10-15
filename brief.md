@@ -34,6 +34,5 @@ A Software Bill of Materials (SBOM) is a machine-readable inventory of software 
 Resource: The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 ## Misconception in My Track
 A common misconception is that updating Java alone fixes Log4Shell. The vulnerability affected the Apache Log4j library, so an organization must identify vulnerable Log4j versions in applications and dependent products and update the library or affected product to a fixed version. Updating the Java runtime alone does not remove the vulnerable library. CISA’s advisory states this explicitly in the “Mitigations” section, under “Affected Organizations with IT and Cloud Assets
-
-
 ## Open Question
+How can the provider continuously inventory transitive Log4j dependencies across internally developed applications and third-party products, and verify that every affected production system has been patched?
