@@ -24,12 +24,14 @@ Border Gateway Protocol (BGP) route hijacking occurs when a network announces an
 
 Resource: BGP Origin Validation - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/bgp-origin-validation/
 
-
 ## Cybersecurity
 Log4Shell (CVE-2021-44228) was a critical remote-code-execution vulnerability in Apache Log4j 2, a widely used Java logging library. Certain attacker-controlled log messages could trigger unsafe JNDI lookups, potentially allowing remote code execution on vulnerable systems. Its widespread use, ease of exploitation in affected configurations, and potential for severe compromise made it exceptionally serious. Organizations should identify affected applications and dependencies, upgrade to a fixed Log4j version, verify remediation, and investigate signs of compromise.
 
 Resource: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 ## Data
+A Software Bill of Materials (SBOM) is a machine-readable inventory of software components and their supply-chain relationships. The NTIA minimum elements include the supplier name, component name, component version, other unique identifiers, dependency relationships, the author of SBOM data, and a timestamp. These fields help teams determine whether a vulnerable library is present and prioritize remediation. SBOMs should be generated consistently, updated for releases, and protected against tampering; they improve visibility but do not prove that software is secure.
+
+Resource: The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
 
