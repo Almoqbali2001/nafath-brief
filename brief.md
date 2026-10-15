@@ -32,7 +32,8 @@ Resource: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https:/
 A Software Bill of Materials (SBOM) is a machine-readable inventory of software components and their supply-chain relationships. The NTIA minimum elements include the supplier name, component name, component version, other unique identifiers, dependency relationships, the author of SBOM data, and a timestamp. These fields help teams determine whether a vulnerable library is present and prioritize remediation. SBOMs should be generated consistently, updated for releases, and protected against tampering; they improve visibility but do not prove that software is secure.
 
 Resource: The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
-
 ## Misconception in My Track
+A common misconception is that updating Java alone fixes Log4Shell. The vulnerability affected the Apache Log4j library, so an organization must identify vulnerable Log4j versions in applications and dependent products and update the library or affected product to a fixed version. Updating the Java runtime alone does not remove the vulnerable library. CISA’s advisory states this explicitly in the “Mitigations” section, under “Affected Organizations with IT and Cloud Assets
+
 
 ## Open Question
